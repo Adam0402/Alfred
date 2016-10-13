@@ -1,0 +1,21 @@
+<ion-view hide-nav-bar="true">
+    <ion-content>
+   		<div class="profile-edit logpage">  
+			<div class="profile-edit-sub">
+				<div>User Name</div>
+				<label class="item item-input">
+			    	<input type="text" placeholder="User Name" ng-model="userss.name">
+				</label>
+			</div>	
+			<div class="profile-edit-sub">
+				<div>Password</div>
+				<label class="item item-input">
+			    	<input type="password" placeholder="Password" ng-model="userss.password">
+				</label>
+			</div>	
+			<button ng-click="sign_in()">SIGN IN</button>
+			<button ng-click="back()" class="back">BACK</button>  
+  		</div> 		
+    </ion-content>
+</ion-view>
+

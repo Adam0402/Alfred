@@ -1,0 +1,94 @@
+<ion-view hide-nav-bar="true">
+  	<ion-content>
+  		<div class="profile">
+	  		<div class="profile-pic">
+	  			<div>{{user.name}}'s Profile</div>
+	  		</div>
+	  		<div class="profile-logout" ng-click="sign_out()">
+	  			<div>Sign Out</div>
+	  		</div>
+  		</div>
+  		<ion-slides options="data.sliderOptions" slider="data.sliderDelegate" class="profile-slider">
+		    <ion-slide-page ng-repeat="profile in data.index">
+      			<div ng-show="profile=='profile_0'" class="profile-address">
+      				<div class="profile-title"><div>Address</div></div>
+      				<div class="profile-edit">
+      					<div class="profile-edit-sub">
+      						<div>Street</div>
+      						<label class="item item-input">
+							    <input type="text" placeholder="Street Name">
+							</label>
+      					</div>
+      					<div class="profile-edit-sub">
+      						<div>City</div>
+      						<label class="item item-input">
+							    <input type="text" placeholder="City">
+							</label>
+      					</div>
+      					<div class="profile-edit-sub">
+      						<div>State</div>
+      						<label class="item item-input">
+							    <input type="text" placeholder="State">
+							</label>
+      					</div>
+      					<div class="profile-edit-sub">
+      						<div>Zip Code</div>
+      						<label class="item item-input">
+							    <input type="text" placeholder="Zip Code">
+							</label>
+      					</div>
+      					<div class="profile-edit-sub">
+      						<div>Type</div>
+      						<label class="item item-input">
+							    <input type="text" placeholder="Type">
+							</label>
+      					</div>
+      					<button>Save</button>
+      				</div>
+      			</div>
+      			<div ng-show="profile=='profile_1'" class="profile-payment">
+      				<div class="profile-title"><div>Payment</div></div>
+      				<div class="profile-edit">  
+	      				<div class="profile-edit-sub">
+	  						<div>Credit Card Number</div>
+	  						<label class="item item-input">
+							    <input type="text" placeholder="Credit Card Number">
+							</label>
+	  					</div>	
+	  					<div class="profile-edit-sub">
+	  						<div>Type</div>
+	  						<label class="item item-input">
+							    <input type="text" placeholder="Type">
+							</label>
+	  					</div>	
+	  					<div class="profile-edit-sub">
+	  						<div>Security Code</div>
+	  						<label class="item item-input">
+							    <input type="text" placeholder="Security Code">
+							</label>
+	  					</div>	
+	  					<button>Save</button> 
+  					</div> 					
+      			</div>
+      			<div ng-show="profile=='profile_2'" class="profile-password">
+      				<div class="profile-title"><div>Password-Change</div></div>   
+      				<div class="profile-edit"> 	
+	      				<div class="profile-edit-sub">
+	  						<div>New Password</div>
+	  						<label class="item item-input">
+							    <input type="text" placeholder="New Password">
+							</label>
+	  					</div>	
+	  					<div class="profile-edit-sub">
+	  						<div>Confirm Password</div>
+	  						<label class="item item-input">
+							    <input type="text" placeholder="Confirm Password">
+							</label>
+	  					</div>
+	  					<button>Save</button> 
+  					</div> 			
+      			</div>
+    		</ion-slide-page>
+	  	</ion-slides>
+	</ion-content>
+</ion-view>

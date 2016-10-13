@@ -1,0 +1,184 @@
+/* Empty. Add your own CSS if you like */
+ion-view{
+	background-color: #2c3e50 !important;
+}
+
+.uber-chats ion-item{
+	margin: 3px 1px 3px 1px;
+}
+
+.tab-nav.tabs{
+	background-color: #22a7f0 !important;
+}
+
+ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.activated{
+	color: #f7f7f7 !important;
+    background-color: #52b3d9 !important;
+    font-weight: 600 !important;
+}
+
+.tabs-striped .tabs{
+	border-bottom: 1px solid #2c3e50 !important;
+}
+
+.profile{
+    margin-top: 8%;
+    padding-bottom: 13%;
+}
+
+.profile-pic{
+	height: 40px;
+    background-color: #52b3d9;
+    width: 40%;
+    border-radius: 10px;    
+    margin-left: -7px;
+    position: relative;    
+    float: left;
+}
+
+.profile-pic div{
+	position: absolute;
+    top: 11px;
+    left: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.profile-logout{
+    height: 40px;
+    background-color: #52b3d9;
+    width: 40%;
+    border-radius: 10px;
+    margin-right: -7px;
+    position: relative;
+    float: right;
+}
+
+.profile-logout:hover{
+    background-color: #22a7f0;
+}
+
+.profile-logout div {
+    position: absolute;
+    top: 11px;
+    left: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.profile-select{
+	margin-top: 30px;
+    text-align: center;
+}
+
+.profile-select button{
+	width: 25%;
+	height: 30px;	
+    background-color: #22a7f0;
+    border-color: #22a7f0;
+    border-radius: 5px;
+    color: white;
+    font-family: cursive;
+}
+
+.box{
+  height: 100%;
+}
+
+.profile-slider{
+	border: 1px solid #22a7f0;
+    margin-top: 6%;
+    padding-bottom: 10px;
+    margin-left: 2%;
+    width: 96%;
+    height: 80%;
+    border-radius: 7px;
+}
+
+.profile-slider .profile-title{
+    margin-top: 20px;
+    color: #52b3d9;
+    font-family: cursive;
+    font-size: 26px;
+    font-weight: 600;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.profile-slider .profile-title div{
+	padding-top: 5px;
+}
+
+.profile-slider .profile-password .profile-title{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.profile-edit-sub{
+	width: 94%;
+	padding-top: 40px;
+}
+
+.profile-edit-sub div{
+	width: 35%;
+    float: left;
+    text-align: right;
+    padding-top: 5px;
+    color: white;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.profile-edit-sub label{
+	width: 60%;
+    height: 30px;
+    border-radius: 7px;
+    float: right;
+}
+
+.profile-edit button{	
+    margin-top: 40px;
+    width: 40%;
+    height: 40px;
+    margin-left: 30%;
+    color: white;
+    background-color: #52b3d9;
+    border-color: #52b3d9;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.logo{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30%;
+}
+
+.splash{
+    margin-top: 25%;
+    text-align: center;
+}
+
+.splash button{
+    height: 40px;
+    width: 40%;
+    color: white;
+    background-color: #52b3d9;
+    border-color: #52b3d9;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.profile-edit.logpage{
+    margin-top: 30%;
+}
+
+.profile-edit.logpage .back{
+    margin-top: 10px !important;
+}
+

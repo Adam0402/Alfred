@@ -1,0 +1,33 @@
+<ion-view hide-nav-bar="true">
+    <ion-content>
+   		<div class="profile-edit logpage">  
+			<div class="profile-edit-sub">
+				<div>User Name</div>
+				<label class="item item-input">
+			    	<input type="text" placeholder="User Name" ng-model="userfs.name">
+				</label>
+			</div>	
+			<div class="profile-edit-sub">
+				<div>Email Address</div>
+				<label class="item item-input">
+			    	<input type="text" placeholder="Email Address" ng-model="userfs.email">
+				</label>
+			</div>	
+			<div class="profile-edit-sub">
+				<div>Password</div>
+				<label class="item item-input">
+			    	<input type="password" placeholder="Password" ng-model="userfs.password">
+				</label>
+			</div>	
+			<div class="profile-edit-sub">
+				<div>Confirm Password</div>
+				<label class="item item-input">
+			    	<input type="password" placeholder="Confirm Password" ng-model="userfs.cfpassword">
+				</label>
+			</div>	
+			<button ng-click="register()">REGISTER</button> 
+			<button ng-click="back()" class="back">BACK</button>  
+  		</div> 		
+    </ion-content>
+</ion-view>
+
